@@ -91,9 +91,80 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 105px;
+  column-gap: 70px;
+}
 
+.benefits-item {
+  display: flex;
+}
 
+.benefits-img {
+width: 37px;
+height: 37px;
 
+}
 
+.benefits-box {
+  margin-left: 20px;
+}
+
+.benefits-title {
+color: #333;
+font-family: "Montserrat";
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+font-variant: small-caps;
+margin-bottom: 20px;
+margin-left: 20px;
+}
+
+.benefits-text {
+  width: 275px;
+color: #B6B6B6;
+font-family: "Roboto";
+font-size: 15px;
+font-weight: 400;
+line-height: 22px; 
+}
+
+.info {
+  padding-top: 100px;
+  padding-bottom: 27px;
+  text-align: center;
+}
+
+.info-text {
+  margin-bottom: 17px;
+  color: #333;
+font-family: "Kaushan Script";
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+}
+
+.info-title {
+  color: #333;
+font-family: "Montserrat";
+font-size: 30px;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+margin-bottom: 36px;
+}
+
+.info-desk {
+  margin-top: 45px;
+  color: #B6B6B6;
+text-align: center;
+font-family: "Roboto";
+font-size: 15px;
+font-weight: 400;
+line-height: normal;
+}
 
 
