@@ -25,3 +25,75 @@ h1, h2, h3, h4, p {
   padding-right: 15px;
   outline: 1px solid green;
 }
+
+.header {
+  padding-top: 17px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  color: #95E1D3;
+font-family: "Montserrat";
+font-size: 30px;
+font-weight: 700;
+line-height: normal;
+}
+
+.header-list {
+  display: flex;
+  gap: 55px;
+}
+
+
+.header-link {
+  color: #95E1D3;
+font-family: "Montserrat";
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+} 
+
+.hero {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.hero-text {
+  color: #333;
+font-family: "Kaushan Script";
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 20px;
+}
+
+.hero-title {
+  color: #333;
+font-family: "Montserrat";
+font-size: 30px;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+margin-bottom: 40px;
+}
+
+.line {
+  width: 60px;
+height: 4px;
+background: #F38181;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+
+
+
+
