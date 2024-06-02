@@ -102,13 +102,24 @@ p {
  
 }
 
+.benefits-list {
+  display: flex;
+flex-wrap: wrap;
+column-gap: 70px;
+row-gap: 100px;
+justify-content: center;
+}
 
 
-
+.benefits-item {
+  display: flex;
+}
+ 
 
 .benefits-img {
   width: 37px;
   height: 37px;
+  margin-right: 18px;
 
 }
 
@@ -121,6 +132,7 @@ p {
   font-weight: 400;
   line-height: normal;
   font-variant: small-caps;
+  margin-bottom: 20px;
   
 }
 
