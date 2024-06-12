@@ -23,4 +23,35 @@ p {
   margin: 0;
   padding: 0;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid red;}
+
+.header {
+  padding-top: 29px;
+}
+
+.header-logo {
+  color: #95E1D3;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.header-link {
+  color: #95E1D3;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #F38181;
+}
 
