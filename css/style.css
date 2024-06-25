@@ -36,17 +36,15 @@ p {
 
 .header-logo {
   color: #95E1D3;
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 30px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
 .header-link {
   color: #95E1D3;
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
@@ -55,148 +53,103 @@ line-height: normal;
   color: #F38181;
 }
 
-.header-list{
-  display: flex;
-gap: 55px;
-}
-.header-box{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
+
 .hero{
   padding-top: 65px;
   padding-bottom: 65px;
-  text-align: center;
 }
 .hero-text{
   color: #333;
 font-family: "Kaushan Script";
 font-size: 24px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-bottom: 20px;
+
 }
 .hero-title{
   color: #333;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 30px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   font-variant: all-small-caps;
-  margin-bottom: 40px;
 }
 .line{
   width: 60px;
 height: 4px;
 background: #F38181;
-margin: 0 auto;
+
 }
- 
-.benefits-list{
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 70px;
-  row-gap: 105px;
-  }
-.benefits-item{
-      display: flex;
-    }
+
+
 .benefits-title{
-margin-bottom: 20px;
 color: #333;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
   font-variant: small-caps;
 }
 .benefits-text{
-  width: 274px;
   color: #B6B6B6;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 15px;
-    font-style: normal;
     font-weight: 400;
     line-height: 22px;
 }
-.benefits-img{
-  width: 37px;
-    height: 37px;
-    margin-right: 20px;
-}
+
 
 .info {
 padding-top: 100px;
 padding-bottom: 27px;
-text-align: center;
 }
 
 .info-text {
   color: #333;
 font-family: "Kaushan Script";
 font-size: 24px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-bottom: 17px;
 }
 
 .info-title {
   color: #333;
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 30px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 font-variant: all-small-caps;
-margin-bottom: 36px;
 }
 
 .info-desk {
   color: #B6B6B6;
 text-align: center;
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 15px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
-width: 1104px;
-margin: 0 auto;
-margin-top: 45px;
 }
 .team {
   padding-bottom: 80px;
 }
 
-.team-list {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-.team-img {
-  width: 380px;
-  margin-bottom: 30px;
-}
+
 
 .team-title {
   color: #333;
 text-align: center;
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
 font-variant: all-small-caps;
-margin-bottom: 10px;
 }
 
 .team-desk {
   color: #B6B6B6;
 text-align: center;
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 15px;
 font-style: italic;
 font-weight: 300;
@@ -207,11 +160,6 @@ line-height: normal;
   padding-bottom: 10px;
 }
 
-.footer-line {
-  width: 1200px;
-height: 1px;
-background-color: #B6B6B6;
-}
 
 .footer-text {
   color: #333;
@@ -225,21 +173,11 @@ line-height: normal;
   color: #F38181;
 font-family: "Montserrat";
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
 
-.footer-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-.form {
-  display: flex;
-  margin-top: 10px;
-}
 
 .form-input {
   color: #B6B6B6;
@@ -248,12 +186,6 @@ font-size: 14px;
 font-style: italic;
 font-weight: 300;
 line-height: normal;
-padding-top: 12px;
-padding-bottom: 11px;
-padding-left: 10px;
-padding-right: 145px;
-display: block;
-
 }
 
 .form-btn {
@@ -264,11 +196,5 @@ font-size: 14px;
 font-weight: 700;
 line-height: normal;
 font-variant: all-small-caps;
-padding-top: 11px;
-padding-left: 38px;
-padding-right: 38px;
-padding-bottom: 12px;
 background-color: #95E1D3;
-display: block;
-border:transparent;
 }
