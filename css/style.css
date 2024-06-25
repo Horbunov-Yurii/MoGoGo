@@ -28,6 +28,7 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  outline: 1px solid red;
 }
 
 .header {
@@ -41,6 +42,18 @@ font-size: 30px;
 font-weight: 700;
 line-height: normal;
 }
+
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list {
+  display: flex;
+  gap: 55px;
+}
+
 .header-link {
   color: #95E1D3;
 font-family: "Montserrat";
@@ -58,6 +71,8 @@ line-height: normal;
 .hero{
   padding-top: 65px;
   padding-bottom: 65px;
+  display: flex;
+  text-align: center;
 }
 .hero-text{
   color: #333;
@@ -65,7 +80,7 @@ font-family: "Kaushan Script";
 font-size: 24px;
 font-weight: 400;
 line-height: normal;
-
+margin-bottom: 20px;
 }
 .hero-title{
   color: #333;
@@ -74,12 +89,13 @@ line-height: normal;
   font-weight: 700;
   line-height: normal;
   font-variant: all-small-caps;
+  margin-bottom: 40px;
 }
 .line{
   width: 60px;
 height: 4px;
 background: #F38181;
-
+margin: 0 auto;
 }
 
 
