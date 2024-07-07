@@ -97,12 +97,25 @@ background: #F38181;
 margin: 0 auto;
 }
 
+.benefits-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 70px;
+  row-gap: 100px;
+}
+
+.benefits-item{
+  display: flex;
+}
+
 
 .benefits-img {
   height: 36px;
   width: 38px;
-  
+  margin-right: 20px;
 }
+
+
 
 .benefits-title{
 color: #333;
@@ -111,7 +124,7 @@ color: #333;
   font-weight: 400;
   line-height: normal;
   font-variant: small-caps;
-
+  margin-bottom: 20px;
 }
 .benefits-text{
   color: #B6B6B6;
@@ -119,6 +132,7 @@ color: #333;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
+    width: 274px;
 }
 
 
