@@ -115,11 +115,21 @@ margin: 0 auto;
   height: 36px;
   width: 38px;
   margin-right: 20px;
+ fill: gray;
+ transition: 2s;
+}
 
+.benefits-item:hover{
+.benefits-img {
+  transform: translateY(50px) rotate(360deg) scale(2);
+  fill: rebeccapurple;
+}  
 }
 
 
-
+/* .benefits-img:hover{
+  fill: red;
+} */
 
 .benefits-title{
 color: #333;
