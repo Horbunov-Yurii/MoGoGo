@@ -108,25 +108,17 @@ margin: 0 auto;
   display: flex;
 }
 
-.benefits-item:hover{
-.benefits-img{
-  fill: brown;
-  transform: rotate(360deg) scale(2);
-}
-}
+
 
 
 .benefits-img {
   height: 36px;
   width: 38px;
   margin-right: 20px;
-  fill: #95E1D3;
-  transition: 2s;
+
 }
 
-/* .benefits-img:hover{
-  fill: blueviolet;
-} */
+
 
 
 .benefits-title{
